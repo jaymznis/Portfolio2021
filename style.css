@@ -128,13 +128,16 @@ hr.light{
   font-size: 4em;
   padding:2rem;
 }
+.carousel-caption h1 {
+  font-size: 300%;
+}
   }
 @media (max-width: 768px) {
   .carousel-caption {
     top: 3%;
   }
   .carousel-caption h1 {
-    font-size: 350%;
+    font-size: 300%;
   }
   .carousel-caption h3 {
     font-size: 140%;
@@ -158,7 +161,7 @@ hr.light{
     top: 2%;
   }
   .carousel-caption h1 {
-    font-size: 250%;
+    font-size: 200%;
   }
   .carousel-caption h3 {
     font-size: 110%;
