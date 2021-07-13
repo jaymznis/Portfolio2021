@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Complete Bootstrap 4 Website Layout</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+	<link href="style.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://m.w3newbie.com/you-tube.css">
+</head>
+
+<body>
+
+	<!-- Navigation -->
+	<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+		<div class="container-fluid">
+			<a class="navbar-brand" href="#"><img src="img/logo.png"></a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarResponsive">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item active">
+						<a class="nav-link" href="#skillset">Skillset</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#About">About</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#Projects">Projects</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#skills">Other Skills</a>
+					</li> 
+					<li class="nav-item">
+						<a class="nav-link" href="#Contact">Connect</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<!--- Image Slider -->
+	<div id="slides" class="carousel slide" data-ride="carousel">
+
+		<ul class="carousel-indicators">
+			<!-- <li data-target="#slides" data-slide-to="0" class="active"></li>
+			<li data-target="#slides" data-slide-to="1"></li>
+			<li data-target="#slides" data-slide-to="2"></li> -->
+		</ul>
+		<div class="carousel-inner">
+			<div class="carousel-item active">
+				<img src="img/James HeadShot.jpeg">
+				<div class="carousel-caption">
+					<h1 class="display-2">James Campbell</h1>
+					<h3>Software Developer</h3>
+					<!-- <button type="button" class="btn btn-outline-light btn-lg">VIEW DEMO</button>
+					<button type="button" class="btn btn-primary btn-lg">Get Started</button> -->
+
+				</div>
+			</div>
+			<!-- <div class="carousel-item">
+				<img src="img/James HeadShot.jpeg">
+			</div>
+			<div class="carousel-item">
+				<img src="img/James nawlins BW.jpeg">
+			</div> -->
+		</div>
+	</div>
+
+	<!--- Jumbotron -->
+	<div class="containter-fluid">
+		<div class="row jumbotron">
+			<div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
+				<p class="lead">I’m a well-trained, highly motivated individual with excellent interpersonal and business communication skills, capable of working within a team, and experienced in directing a team in order to complete an agenda in a timely matter. I am a very motivated individual that’s strives to be the best at whatever project that is thrown my way. A beneficial skill of mine is being able to learn and accomplish new techniques quickly. Please look over my work and contact me with any questions you may have. Thank you for your time.</p>
+			</div>
+			<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
+				<a href="#Contact"><button type="button" class="btn btn-outline-secondary btn-lg">Contact</button></a>
+			</div>
+		</div>
+	</div>
+		<!--- Fixed background -->
+<hr class="my-4">
+<figure>
+	<div class="fixed-wrap">
+		<div class="fixed-wrap">
+			<div id="fixed">
+
+			</div>
+		</div>
+	</div>
+</figure>
+<!--- Two Column Section -->
+<div class="container-fluid padding">
+	<div class="row padding">
+		<div id="About" class="col-md-12 col-lg-6">
+			<h2>Who I am</h2>
+			<p>Hello, I am James Campbell. I am a father to two wonderful boys and husband to my beautiful wife. I was born in Michigan but now reside in Indiana. </p>
+			<p>I started my professional working life in the Music Industry. That path has taken me around the world and giving me incredible experiences plus some lasting friendships. I performed many different tasks on the road. Performing these roles brought me to discover one of my most valuable traits. I am a creative problem solver who can adapt. 
+			</p>
+			<p>In 2020 the pandemic put my career on hold. It was a chance to use my skills and adapt again. I always wanted to learn the language of a computer. I took what seemed a disaster and made it an opportunity to grow. I signed up for a boot camp in C#. Since then, I have been striving to attain as much knowledge as I can. I found that my passion is learning. I continue to do so. </p>
+				<br>
+				<!-- <a href="#" class="btn btn-primary">Learn More</a> -->
+		</div>
+		<div class="col-lg-6">
+			<img src="img/James nawlins BW.jpeg" class="img-fluid">
+		</div>
+	</div>
+</div>
+	<!--- SkillSet -->
+	<div class="container-fluid padding">
+		<div class="row welcome text-center">
+			<div class="col-12">
+				<h1 id="skillset" class="display-4">My Skillset</h1>
+			</div>
+			<hr>
+			<div class="col-12">
+				<p class="lead">As a Software Developer I have many tools avaiable to me. Listed below are a few things I am knowledgeable in.</p>
+			</div>
+		</div>
+	</div>
+
+	<!--- Four Column Section -->
+	<div class="container-fluid padding">
+		<div class="row text-center padding">
+			<div class="col-xs-12 col-sm-6 col-md-3">
+				<i class="fas fa-hashtag"></i>
+				<h3>C#.NET</h3>
+				
+			</div>
+			<div class="col-xs-12 col-sm-6 col-md-3">
+				<i class="fas fa-code"></i>
+				<h3>HTML5</h3>
+				
+
+			</div>
+			<div class="col-xs-12 col-sm-6 col-md-3">
+				<i class="fas fa-bold"></i>
+				<h3>BOOTSTRAP</h3>
+				
+
+			</div>
+			<div class="col-xs-12 col-sm-6 col-md-3">
+				<i class="fab fa-css3"></i>
+				<h3>CSS3</h3>
+				
+
+			</div>
+		</div>
+		<hr class="my-4">
+	</div>
+
+	
+
+	<!--- Fixed background -->
+<hr class="my-4">
+<figure>
+	<div class="fixed-wrap">
+		<div class="fixed-wrap">
+			<div id="fixed">
+
+			</div>
+		</div>
+	</div>
+</figure>
+
+	<!--- Emoji Section -->
+<!-- <button class="fun" data-toggle="collapse" data-target="#emoji">click for fun</button>
+<div id="emoji" class="collapse">
+	<div class="containter-fluid padding">
+		<div class="row text-center">
+			<div class="col-sm-6 col-md-3">
+				<img class="gif" src="img/gif/panda.gif">
+			</div>
+			<div class="col-sm-6 col-md-3">
+				<img class="gif" src="img/gif/poo.gif">
+			</div>
+			<div class="col-sm-6 col-md-3">
+				<img class="gif" src="img/gif/unicorn.gif">
+			</div>
+			<div class="col-sm-6 col-md-3">
+				<img class="gif" src="img/gif/chicken.gif">
+			</div>
+		</div>
+	</div>
+</div> -->
+
+	<!--- Meet the team -->
+<div class="containter-fluid padding">
+	<div class="row welcome text-center">
+		<div class="col-12">
+			<h1 id="Projects" class='display-4'>Projects</h1>
+		</div>
+		<hr>
+	</div>
+</div>
+
+	<!--- Cards -->
+<div class="containter-fluid padding">
+	<div class="row padding">
+		<div class="col-md-3">
+			<div class="card">
+				<img class="card-img-top" src="img/bugtracker.jpg">
+				<div class="card-body">
+					<h4 class="card-title">Bug Tracker</h4>
+					<p class="card-text">This is a project I made in Visual Studio. Its a C# MVC program utilizing a n-tier format. It is a work in progress but it is set up to be retooled for multiple uses.</p>
+					<a href="https://github.com/jaymznis/BugTracker" class="btn btn-outline-secondary">See Code</a>
+				</div>
+			</div>
+		</div>
+		
+		<div class="col-md-3">
+			<div class="card">
+				<img class="card-img-top" src="img/RR.jpg">
+				<div class="card-body">
+					<h4 class="card-title">Routine Reminder</h4>
+					<p class="card-text">This was a group project in class. I took the lead and helped our group get a perfect score. This is a WebAPI created with C#. It was started as a way to create your daily routines. </p>
+					<a href="https://github.com/jaymznis/RoutineReminderAPI" class="btn btn-outline-secondary">See Code</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-3">
+			<div class="card">
+				<img class="card-img-top" src="img/DOFR.jpg">
+				<div class="card-body">
+					<h4 class="card-title">Dungeon Of Riddles</h4>
+					<p class="card-text">A early team project to build a console app game. My team created a dungeon crawler with a few hidden secrets. Download it and give it a shot.</p>
+					<a href="https://github.com/jaymznis/DungeonOfRiddles" class="btn btn-outline-secondary">See Code</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-3">
+			<div class="card">
+				<img class="card-img-top" src="img/CSSCreature.jpg">
+				<div class="card-body">
+					<h4 class="card-title">CSS Creature</h4>
+					<p class="card-text">This is a early project I created for Class. I used html and css to create it.</p>
+					<a href="https://codepen.io/jaymznis/pen/XWpGBXj" class="btn btn-outline-secondary">See Code</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+	<!--- Two Column Section -->
+	<div class="container-fluid padding">
+		<div class="row padding">
+			<div id="skills" class="col-md-12 col-lg-6">
+				<h2>Other Notable Skills</h2>
+				<p>While this page is more to display my software develoment abilities I have a deep background in live event production. I have held many roles in this field. Notable skills would be Tour and Production Management. These are qualities that carry over into multiple fields. I have succesfully built and managed teams to accomplish simple to complex goals.   </p>
+					<br>	
+			</div>
+			<div class="col-lg-6">
+				<img src="img/desk.JPG" class="img-fluid">
+			</div>
+		</div>
+		<hr class="my-4">
+	</div>
+
+	<!--- Connect -->
+<div class="containter-fluid padding">
+	<div class="row text-center padding">
+		<div class="col-12">
+			<h2 id="Contact">Connect</h2>
+		</div>
+		<div class="col-12 social padding">
+			<!-- <a href="#"><i class="fab fa-facebook"></i></a> -->
+			<a href="https://www.linkedin.com/in/jaymznis/"><i class="fab fa-linkedin"></i></a>
+			<a href="https://github.com/jaymznis"><i class="fab fa-github"></i></a>
+			<!-- <a href="https://www.instagram.com/imjamescampbell/"><i class="fab fa-instagram"></i></a> -->
+		</div>
+	</div>
+</div>
+
+	<!--- Footer -->
+<footer>
+	<div class="containter-fluid padding">
+		<div class="row text-center">
+			<div class="col-md-12">
+				<img src="img/logowhitesm.png">
+				<hr class="light">
+				<!-- <p>555-555-5555</p> -->
+				<p>jaymznis@gmail.com</p>
+				<p>Indianapolis IN</p>
+			</div>
+			<!-- <div class="col-md-4">
+				<hr class="light">
+				<h5>Our Hours</h5>
+				<hr class="light">
+				<p>M-F: 9am-5pm<p>
+
+			</div>
+			<div class="col-md-4">
+				<hr class="light">
+				<h5>other info</h5>
+				<hr class="light">
+				<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum rerum sapiente, sed quam eaque numquam nemo dolorem placeat sint tempora repudiandae, aut, delectus error saepe rem deleniti facere quidem dignissimos!<p>
+
+			</div> -->
+			<div class="col-12">
+				<hr class="light">
+				<h5>&copy James Campbell</h5>
+			</div>
+		</div>
+	</div>
+</footer>
+
+
+
+</body>
+
+</html>
