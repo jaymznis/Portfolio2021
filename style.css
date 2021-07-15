@@ -74,7 +74,20 @@ html, body {
 .fa-css3{
   color: #2163af;
 }
-.fa-hashtag, .fa-bold, .fa-code, .fa-css3 {
+.fa-database{
+  
+ color: darkred;
+}
+.skill{
+  color: #211f1f;
+}
+.fa-sync-alt{
+  color: teal;
+}
+.fa-server{
+  color:#1877f2;
+}
+.fa-hashtag, .fa-bold, .fa-code, .fa-css3, .fa-database, .fa-server, .fa-sync-alt, .skill {
   font-size: 4em;
   margin: 1rem;
 }
@@ -141,7 +154,7 @@ hr.light{
     font-size: 280%;
   }
   .carousel-caption h3 {
-    font-size: 140%;
+    font-size: 120%;
     
   }
   .carousel-caption .btn{
@@ -165,7 +178,7 @@ hr.light{
     font-size: 200%;
   }
   .carousel-caption h3 {
-    font-size: 110%;
+    font-size: 80%;
   }
   .carousel-caption .btn{
     font-size: 90%;
